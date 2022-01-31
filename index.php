@@ -1,170 +1,172 @@
 <?php
-echo '<!DOCTYPE html>';
-echo '<!-- Created By CodingNepal -->';
-echo '<html lang="en">';
-echo '<head>';
-echo '<meta charset="UTF-8">';
-echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-echo '<title>Personal Portfolio Website</title>';
-echo '<link rel="stylesheet" href="style.css">';
-echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>';
-echo '<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>';
-echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>';
-echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>';
-echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>';
-echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>';
-echo '';
-echo '</head>';
-echo '<body>';
-echo '<div class="scroll-up-btn">';
-echo '<i class="fas fa-angle-up"></i>';
-echo '</div>';
-echo '<nav class="navbar">';
-echo '<div class="max-width">';
-echo '<div class="logo"><a href="#">Digital<span>-poonam</span></a></div>';
-echo '<ul class="menu">';
-echo '<li><a href="#home" class="menu-btn">Home</a></li>';
-echo '<li><a href="#about" class="menu-btn">About</a></li>';
-echo '<li><a href="#services" class="menu-btn">Services</a></li>';
-echo '<li><a href="#teams" class="menu-btn">Teams</a></li>';
-echo '</ul>';
-echo '<div class="menu-btn">';
-echo '<i class="fas fa-bars"></i>';
-echo '</div>';
-echo '</div>';
-echo '</nav>';
-echo '';
-echo '<!-- home section start -->';
-echo '<section class="home" id="home">';
-echo '<div class="max-width">';
-echo '<div class="home-content">';
-echo '<div class="text-1">Hello, my name is</div>';
-echo '<div class="text-2">Digital poonam</div>';
-echo '<div class="text-3">And I'm a <span class="typing"></span></div>';
-echo '<a href="#">courses</a>';
-echo '</div>';
-echo '</div>';
-echo '</section>';
-echo '';
-echo '<!-- about section start -->';
-echo '<section class="about" id="about">';
-echo '<div class="max-width">';
-echo '<h2 class="title">About us</h2>';
-echo '<div class="about-content">';
-echo '<div class="column left">';
-echo '<img src="images/profile-1.jpeg" alt="">';
-echo '</div>';
-echo '<div class="column right">';
-echo '<div class="text">I'm poonam and I'm a <span class="typing-2"></span></div>';
-echo '<p>EXCELLENCE: We stand together to gain excellence in everything we do, from a large to the smallest detail. <br>';
-echo '';
-echo 'KNOWLEDGE & INNOVATION: We are upgrading ourself through ongoing learning and development proactively. <br>';
-echo '';
-echo 'COMMINTMENT: We have deep/ genuine commitment to our co-learners. We go the extra distance in all that we do. We thrive on a service mindset.</p>';
-echo '<a href="#">Contact us</a>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</section>';
-echo '';
-echo '<!-- services section start -->';
-echo '<section class="services" id="services">';
-echo '<div class="max-width">';
-echo '<h2 class="title">Our services</h2>';
-echo '<div class="serv-content">';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<i class="fas fa-paint-brush"></i>';
-echo '<div class="text">BUNDLE 1</div>';
-echo '<p><h3>$16000</h3> <br>';
-echo '1.Growth Hacking <br>';
-echo '2.Facebook, Instagram Ads Setup <br>';
-echo '3.Pinterest, LinkedIn Basic <br>';
-echo '4.Google My Business Setup <br>';
-echo '5.Google Ads Setup <br>';
-echo '6.Blogging and Content Writing</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">z';
-echo '<i class="fas fa-chart-line"></i>';
-echo '<div class="text">BUNDLE 2</div>';
-echo '<p>';
-echo '<h3> $10000</h3>  <br>1.7 Module Course <br>';
-echo '2.SEO Basic and Advance <br>';
-echo '3.WordPress and WIX Website Development <br>';
-echo '4.Google Ads (Pay Per Click) Basic <br>';
-echo '5.Google Analytics Basic</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<i class="fas fa-code"></i>';
-echo '<div class="text">BUNDLE 3</div>';
-echo '<p><h3>$26000</h3>';
-echo '1.Complete Social Media Setup <br>';
-echo '2.Website Development <br>';
-echo '3.Blogging and Content <br> Writing <br>';
-echo '4.Google Ads (Pay Per Click) <br>';
-echo '5.Growth Hacking</p>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</section>';
-echo '';
-echo '';
-echo '';
-echo '<!-- teams section start -->';
-echo '<section class="teams" id="teams">';
-echo '<div class="max-width">';
-echo '<h2 class="title">My teams</h2>';
-echo '<div class="carousel owl-carousel">';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<img src="images/profile-1.jpeg" alt="">';
-echo '<div class="text">Someone name</div>';
-echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<img src="images/profile-2.jpeg" alt="">';
-echo '<div class="text">Someone name</div>';
-echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<img src="images/profile-3.jpeg" alt="">';
-echo '<div class="text">Someone name</div>';
-echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<img src="images/profile-4.jpeg" alt="">';
-echo '<div class="text">Someone name</div>';
-echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
-echo '</div>';
-echo '</div>';
-echo '<div class="card">';
-echo '<div class="box">';
-echo '<img src="images/profile-5.jpeg" alt="">';
-echo '<div class="text">Someone name</div>';
-echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</section>';
-echo '';
-echo '';
-echo '';
-echo '';
-echo '';
-echo '<script src="script.js"></script>';
-echo '</body>';
-echo '</html>';
+$string =  '<!DOCTYPE html>'.
+'<!-- Created By CodingNepal -->'.
+'<html lang="en">'.
+'<head>'.
+'    <meta charset="UTF-8">'.
+'    <meta name="viewport" content="width=device-width, initial-scale=1.0">'.
+'    <title>Personal Portfolio Website</title>'.
+'    <link rel="stylesheet" href="style.css">'.
+'    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>'.
+'    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>'.
+'    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>'.
+'    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>'.
+'    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>'.
+'    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>'.
+''.
+'</head>'.
+'<body>'.
+'    <div class="scroll-up-btn">'.
+'        <i class="fas fa-angle-up"></i>'.
+'    </div>'.
+'    <nav class="navbar">'.
+'        <div class="max-width">'.
+'            <div class="logo"><a href="#">Digital<span>-poonam</span></a></div>'.
+'            <ul class="menu">'.
+'                <li><a href="#home" class="menu-btn">Home</a></li>'.
+'                <li><a href="#about" class="menu-btn">About</a></li>'.
+'                <li><a href="#services" class="menu-btn">Services</a></li>'.
+'                <li><a href="#teams" class="menu-btn">Teams</a></li>'.
+'            </ul>'.
+'            <div class="menu-btn">'.
+'                <i class="fas fa-bars"></i>'.
+'            </div>'.
+'        </div>'.
+'    </nav>'.
+''.
+'    <!-- home section start -->'.
+'    <section class="home" id="home">'.
+'        <div class="max-width">'.
+'            <div class="home-content">'.
+'                <div class="text-1">Hello, my name is</div>'.
+'                <div class="text-2">Digital poonam</div>'.
+'                <div class="text-3">And I\'m a <span class="typing"></span></div>'.
+'                <a href="#">courses</a>'.
+'            </div>'.
+'        </div>'.
+'    </section>'.
+''.
+'    <!-- about section start -->'.
+'    <section class="about" id="about">'.
+'        <div class="max-width">'.
+'            <h2 class="title">About us</h2>'.
+'            <div class="about-content">'.
+'                <div class="column left">'.
+'                    <img src="images/profile-1.jpeg" alt="">'.
+'                </div>'.
+'                <div class="column right">'.
+'                    <div class="text">I\'m poonam and I\'m a <span class="typing-2"></span></div>'.
+'                    <p>EXCELLENCE: We stand together to gain excellence in everything we do, from a large to the smallest detail. <br>'.
+''.
+'                        KNOWLEDGE & INNOVATION: We are upgrading ourself through ongoing learning and development proactively. <br>'.
+'                        '.
+'                        COMMINTMENT: We have deep/ genuine commitment to our co-learners. We go the extra distance in all that we do. We thrive on a service mindset.</p>'.
+'                    <a href="#">Contact us</a>'.
+'                </div>'.
+'            </div>'.
+'        </div>'.
+'    </section>'.
+''.
+'    <!-- services section start -->'.
+'    <section class="services" id="services">'.
+'        <div class="max-width">'.
+'            <h2 class="title">Our services</h2>'.
+'            <div class="serv-content">'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <i class="fas fa-paint-brush"></i>'.
+'                        <div class="text">BUNDLE 1</div>'.
+'                        <p><h3>$16000</h3> <br>'.
+'                            1.Growth Hacking <br>'.
+'                            2.Facebook, Instagram Ads Setup <br>'.
+'                            3.Pinterest, LinkedIn Basic <br>'.
+'                            4.Google My Business Setup <br>'.
+'                            5.Google Ads Setup <br>'.
+'                            6.Blogging and Content Writing</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">z'.
+'                        <i class="fas fa-chart-line"></i>'.
+'                        <div class="text">BUNDLE 2</div>'.
+'                        <p>'.
+'                          <h3> $10000</h3>  <br>1.7 Module Course <br>'.
+'                            2.SEO Basic and Advance <br>'.
+'                            3.WordPress and WIX Website Development <br>'.
+'                            4.Google Ads (Pay Per Click) Basic <br>'.
+'                            5.Google Analytics Basic</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <i class="fas fa-code"></i>'.
+'                        <div class="text">BUNDLE 3</div>'.
+'                        <p><h3>$26000</h3>'.
+'                            1.Complete Social Media Setup <br>'.
+'                           2.Website Development <br>'.
+'                           3.Blogging and Content <br> Writing <br>'.
+'                            4.Google Ads (Pay Per Click) <br>'.
+'                            5.Growth Hacking</p>'.
+'                    </div>'.
+'                </div>'.
+'               </div>'.
+'            </div>'.
+'        </div>'.
+'    </section>'.
+''.
+'    '.
+''.
+'    <!-- teams section start -->'.
+'    <section class="teams" id="teams">'.
+'        <div class="max-width">'.
+'            <h2 class="title">My teams</h2>'.
+'            <div class="carousel owl-carousel">'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <img src="images/profile-1.jpeg" alt="">'.
+'                        <div class="text">Someone name</div>'.
+'                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <img src="images/profile-2.jpeg" alt="">'.
+'                        <div class="text">Someone name</div>'.
+'                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <img src="images/profile-3.jpeg" alt="">'.
+'                        <div class="text">Someone name</div>'.
+'                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <img src="images/profile-4.jpeg" alt="">'.
+'                        <div class="text">Someone name</div>'.
+'                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'.
+'                    </div>'.
+'                </div>'.
+'                <div class="card">'.
+'                    <div class="box">'.
+'                        <img src="images/profile-5.jpeg" alt="">'.
+'                        <div class="text">Someone name</div>'.
+'                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'.
+'                    </div>'.
+'                </div>'.
+'            </div>'.
+'        </div>'.
+'    </section>'.
+''.
+'    '.
+'  '.
+'  '.
+''.
+'    <script src="script.js"></script>'.
+'</body>'.
+'</html>';
+
+ echo $string; 
 ?>
